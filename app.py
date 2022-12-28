@@ -75,7 +75,7 @@ with col2:
             else:
                 prediction1 = model1.predict(uploaded_img).argmax()
                 st.write("**Model Prediction : {} ⚠️**".format(variations [prediction1]))
-                st.warning("**The model has scanned the given X-ray and predicted {}. We suggest you seek medical assistance for a proper diagnosis.**".format(variations [prediction1]))
+                st.warning("**The model has scanned the given X-ray and predicted the presence of {}. We suggest you seek immediate medical assistance for a proper diagnosis.**".format(variations [prediction1]))
                 pneumo_pred = yespneumo.max()
                 pneumo_pred = pneumo_pred*100
                 st.write("**Prediction Confidence:** ", pneumo_pred,"%")
