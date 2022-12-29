@@ -21,7 +21,7 @@ with col2:
     st.code(code, language='python')
     ### load file
     uploaded_file = st.file_uploader("Upload A Chest X-ray Scan For A Prediction", type=["jpg","jpeg","png"])
-    st.error('PneumoScan is a Machine Learning model with a 90% accuracy rate. It is not to be considered as an alternative to a proper diagnosis by a certified medical practitioner. Occasionally, results may be inaccurate. 🚨') 
+    st.error('PneumoScan is a Machine Learning model with a 92.3% accuracy rate. It is not to be considered as an alternative to a proper diagnosis by a certified medical practitioner. Occasionally, results may be inaccurate. 🚨') 
     variations = {0: 'BACTERIAL PNEUMONIA',
     1: 'VIRAL PNEUMONIA'}
 
