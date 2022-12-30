@@ -17,7 +17,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+Link : https://devtechjr-pneumoscan-model-app-drswsb.streamlit.app/
+READ ME STILL IN PROGRESS!
 
 
 
